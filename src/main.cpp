@@ -91,9 +91,8 @@ void mode_blink_busy() {
 
   strip.show();
   phase++;
-  delay(80);
+  delay(85);
 }
-
 // 新增兩個模式：待機（綠色圓形緩和呼吸）與緊急（高亮紅色全板閃爍）
 
 void mode_idle() {
